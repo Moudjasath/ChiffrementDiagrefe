@@ -1,4 +1,4 @@
-# ChiffrementDE LORD GARNET
+# Chiffrement DE LORD GARNET
 Chiffrement de Lord Garnet
 Ce programme en C++ implémente une méthode de chiffrement de Lord Garnet.
 
@@ -29,6 +29,4 @@ Exemple
 L'utilisateur est invité à entrer un texte (par exemple, "hello") et une clé (par exemple, 3). Le programme chiffre le texte en utilisant le décalage de 3 positions dans l'alphabet selon la méthode attribuée à Lord Garnet et affiche le texte chiffré.
 ![GARNET](https://github.com/Moudjasath/ChiffrementLORDGARNET/assets/140810316/67e081af-02ff-49c2-89d4-4575a1205d82)
 
-Avertissement
-Ce code est fourni à titre éducatif pour illustrer le fonctionnement du chiffrement par décalage selon la méthode attribuée à Lord Garnet. Il peut nécessiter des ajustements pour des utilisations plus complexes ou sécurisées.
 
