@@ -1,22 +1,34 @@
-# ChiffrementDiagrefe
-Comment utiliser le code
+# ChiffrementDE LORD GARNET
+Chiffrement de Lord Garnet
+Ce programme en C++ implémente une méthode de chiffrement de Lord Garnet.
+
+Description
+Le chiffrement de Lord Garnet , également appelé chiffrement de César, est une méthode de cryptographie où chaque lettre du texte est déplacée d'un certain nombre de positions dans l'alphabet. Dans cette implémentation spécifique, la méthode attribuée à Lord Garnet utilise un décalage pour chiffrer le texte en fonction de la clé donnée par l'utilisateur.
+
+Utilisation
 Prérequis
-Assurez-vous d'avoir un environnement de développement C++ configuré pour compiler et exécuter le programme
-Compilation : Compilez le code à l'aide d'un compilateur compatible C++. Par exemple, avec g++
-g++ nom_du_fichier.cpp -o nom_du_programme
-Exécution : Exécutez le programme en utilisant la commande suivante :
-./nom_du_programme
-Suivez les instructions : Le programme vous demandera d'entrer dans le message à chiffrer et ensuite la clé
+Pour exécuter ce code, assurez-vous d'avoir un compilateur C++ compatible.
 
-Résultat : Après avoir saisi votre message, le programme affichera le message chiffré en utilisant la méthde de du chiffrement DIAGREFE en C++
+Instructions
+Téléchargement du code : Clonez ou téléchargez le fichier source chiffrement_garnet.cpp.
 
-Fonctionnalités
-Fonction de chiffrement : La fonction encryptDIAGREFE prend un message et une clé de substitution comme arguments, puis chiffre le message en utilisant la méthode DIAGREFE.
+Compilation : Compilez le code à l'aide de votre compilateur C++ préféré. Par exemple :
 
-Clé de substitution DIAGREFE : La clé demain()en utilisant une structure de données map<char, char>qui associe chaque lettre de l'alphabet à sa lettre correspondante dans la substitution DIAGREFE.
+g++ chiffrement_garnet.cpp -o chiffrement_garnet
+Exécution : Exécutez le programme compilé :
 
-Entrée utilisateur : Le programme demande à l'utilisateur d'entrer le message à chiffrer à l'aide de la fonction getline(cin, message).
-Affichage du message chiffré : Une fois le message chiffré, celui-ci est affiché à l'écran.
+./chiffrement_garnet
+Entrées
+Lors de l'exécution du programme, l'utilisateur est invité à entrer un texte à chiffrer. Ce texte peut contenir des lettres en minuscules. Ensuite, l'utilisateur est invité à entrer une clé, qui représente le décalage à appliquer au texte.
 
-![DIAGREFE](https://github.com/Moudjasath/ChiffrementDiagrefe/assets/140810316/62bfe020-96ec-42cc-9d35-6690b41918e9)
+Fonctionnement du Code
+Le code utilise un décalage pour chiffrer le texte en fonction de la clé entrée par l'utilisateur. Voici comment il fonctionne :
+
+Chiffrement : Chaque lettre du texte est déplacée vers la droite dans l'alphabet selon la valeur de la clé. Par exemple, avec une clé de 3, 'a' devient 'd', 'b' devient 'e', et ainsi de suite.
+Exemple
+L'utilisateur est invité à entrer un texte (par exemple, "hello") et une clé (par exemple, 3). Le programme chiffre le texte en utilisant le décalage de 3 positions dans l'alphabet selon la méthode attribuée à Lord Garnet et affiche le texte chiffré.
+![GARNET](https://github.com/Moudjasath/ChiffrementLORDGARNET/assets/140810316/67e081af-02ff-49c2-89d4-4575a1205d82)
+
+Avertissement
+Ce code est fourni à titre éducatif pour illustrer le fonctionnement du chiffrement par décalage selon la méthode attribuée à Lord Garnet. Il peut nécessiter des ajustements pour des utilisations plus complexes ou sécurisées.
 
